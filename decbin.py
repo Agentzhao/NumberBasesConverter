@@ -1,4 +1,4 @@
-def decimal_binary(dec):
+def decimaltobinary(dec):
     num = int(dec)
     binary = []
     while (num > 0):
@@ -7,7 +7,3 @@ def decimal_binary(dec):
         num = num // 2
     binary.reverse()
     return(''.join(binary))
-
-
-# main
-print(decimal_binary(95))
