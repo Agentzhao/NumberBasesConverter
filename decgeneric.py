@@ -1,4 +1,4 @@
-def decimal_gen(dec):
+def decimalgenerator(dec):
     num = int(dec)
     base = int(input("Enter the number base(2,8,16): "))
     result = []
@@ -8,7 +8,3 @@ def decimal_gen(dec):
         num = num // base
     result.reverse()
     return(''.join(result))
-
-
-# main
-print(decimal_gen(95))
