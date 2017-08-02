@@ -1,4 +1,4 @@
-def decimal_octal(dec):
+def decimaltoocta(dec):
     num = int(dec)
     octal = []
     while (num > 0):
@@ -7,7 +7,3 @@ def decimal_octal(dec):
         num = num // 8
     octal.reverse()
     return(''.join(octal))
-
-
-# main
-print(decimal_octal(95))
